@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "buttermilk";
+    src: url("Buttermilk.otf");
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#container{
+    height:100%;
+    width:100%;
+    background-image: url("https://images.unsplash.com/photo-1512303561108-3c29fb80061c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+    background-size:cover;
+}
+h1{
+    position:absolute;
+    text-shadow: 3px 3px 5px rgb(192, 192, 247);
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:7vw;
+    font-weight:800;
+    font-family:"Buttermilk";
+    color:#fff;
+    mix-blend-mode: difference;
+}
